@@ -34,8 +34,8 @@ title: Segurança relacionada a Blockchain
 - Cada nó somente conhece seu sucessor (ou antecessor caso seja duplamente ligada)
 - Um nó guarda o valor desejado e também referência para outro nó (endereço de memória)
 
-![bg right vertical w:600 ](../images/linked-listpng.png)
-![bg right w:600 ](../images/doubly-linked-listpng.png)
+![bg right vertical w:600 ](../../images/linked-listpng.png)
+![bg right w:600 ](../../images/doubly-linked-listpng.png)
 
 ---
 
