@@ -10,8 +10,6 @@ title: Segurança relacionada a Blockchain
 
 ## Segurança relacionada a Blockchain
 
-<span><img src="../../images/icons/csharp.png" height="110in" style="margin-top: 0.3in"></span>
-
 <br></br>
 
 <p>
@@ -41,7 +39,7 @@ title: Segurança relacionada a Blockchain
 
 ### | Conceito de lista ligada
 
-- É eficiente para inserir ou remover elementos da lista (não implica na mudança de posíção dos outros elemtos)
+- É eficiente para inserir ou remover elementos da lista (não implica na mudança de posição dos outros elemtos)
 - Alocação dinamica, não é uma coleção contínua na memória
 
 ![bg right vertical w:600 ](../../images/linked-listpng.png)
@@ -81,6 +79,8 @@ namespace LinkedList
     }
 }
 ```
+
+Desafio: Programar um lista ligada do zero
 
 ---
 
@@ -128,7 +128,7 @@ namespace LinkedList
 ### | Proof of work
 
 - É uma restrição inventada que torna o cálculo da hash mais díficil
-- Essa restrição dita que qualquer has deva começar com uma quantidade _x_ de zeros. Com isso, não há solução melhor do que tentativa e erro para encontrar esse valor.
+- Essa restrição dita que qualquer hash deva começar com uma quantidade _x_ de zeros. Com isso, não há solução melhor do que tentativa e erro para encontrar esse valor.
 - Dessa forma, é computacionalmente impossível de se fraudar uma corrente inteira de blocos
 
 ---
@@ -137,9 +137,13 @@ namespace LinkedList
 
 ---
 
-# **Implementação da Blockchain**
+## | Exercícios - Pesquisas em aula
 
-![bg right w:430](../../images/icons/csharp.png)
+1. O que é "minerar bitcoin"?
+
+2. Qual a relação do "Proof of work" com os mineradores?
+
+3. Por que é considerado lucrativo minerar bitcoin?
 
 ---
 
@@ -149,3 +153,5 @@ namespace LinkedList
 
 - [Artigo sobre blockchain e C#](https://towardsdatascience.com/blockchain-explained-using-c-implementation-fb60f29b9f07)
 - [Imagem da lista ligada](https://www.geeksforgeeks.org/types-of-linked-list/)
+
+- [Outro artigo sobre blockchain e C# (código usado nesse slide foi baseado no trabalho de Amir Ashi)](https://dev.to/amir_ashy/simplest-blockchain-in-c-1f70)
