@@ -62,6 +62,7 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
+            //Simples implementação de uma lista ligada
             //Tempo de complexidade -> O(n) No pior dos casos irá percorrer os n elmentos para encontrar o elemento desejado.
             LinkedList<String> minhaLista = new LinkedList<string>();
 
